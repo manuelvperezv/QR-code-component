@@ -1,0 +1,57 @@
+.header{
+    padding: 5% 0;
+}
+.conteiner{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Outfit'
+   
+}
+.cajaQR{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+.divQR{
+    border: solid;
+    border-radius: 5%;
+    background-color: rgb(224, 210, 210);   
+    text-align: center; 
+    width: 15em; 
+    padding: 1em 0.5em;   
+}
+.qr{
+    width: 30vh;
+    border-radius: 5%;  
+}
+.divQR h1{    
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 1em 0;
+}
+.divQR h2{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1em 0;
+    color: hsl(220, 15%, 55%);
+}
+.attribution p 
+{ 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+@media screen and (max-width:375px) {
+    .cajaQR{
+        margin:1%;
+    }    
+    .divQR{
+       padding: 0.75em 0.5em;
+    }
+    
+}
+  
